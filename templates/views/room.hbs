@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Room Booking</title>
+  
+  <!-- Styling -->
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif, sans-serif;
+      background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-912305060013575560/original/47832fdd-c676-49f0-a7fb-dc6fcfa8bbe7.jpeg?im_w=1200");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 20px;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #booking-form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 400px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    #reserve-btn {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    #total-amount {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Booking Form -->
+  <div id="booking-form">
+    <h2>Room Booking</h2>
+
+    <!-- Check-in Date Input -->
+    <label for="checkin-date">Check-in Date:</label>
+    <input type="date" id="checkin-date" required>
+
+    <!-- Check-out Date Input -->
+    <label for="checkout-date">Check-out Date:</label>
+    <input type="date" id="checkout-date" required>
+
+    <!-- Guests Dropdown -->
+    <label for="guests">Number of Guests:</label>
+    <select id="guests">
+      <option value="1">1 Guest</option>
+      <option value="2">2 Guests</option>
+      <option value="3">3 Guests</option>
+      <option value="4">4 Guests</option>
+    </select>
+
+    <!-- Reserve Button -->
+    <button id="reserve-btn" onclick="calculateTotal()">Reserve</button>
+
+    <!-- Total Amount Display -->
+    <p id="total-amount"></p>
+  </div>
+
+  <!-- JavaScript for Calculating Total Amount -->
+  <script>
+    function calculateTotal() {
+      // Retrieve values from the form
+      const checkinDate = new Date(document.getElementById('checkin-date').value);
+      const checkoutDate = new Date(document.getElementById('checkout-date').value);
+      const guests = parseInt(document.getElementById('guests').value, 10);
+
+      // Calculate total nights and amount
+      const totalNights = Math.floor((checkoutDate - checkinDate) / (24 * 60 * 60 * 1000));
+      const totalAmount = totalNights * guests;
+
+      // Display the total amount
+      document.getElementById('total-amount').innerText = `Total Amount: $${totalAmount.toFixed(2)} before taxes`;
+    }
+  </script>
+</body>
+</html>

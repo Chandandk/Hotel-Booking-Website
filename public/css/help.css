@@ -1,0 +1,103 @@
+/* Styling for the container */
+.container {
+  margin-top: 92px;
+  height: auto;
+  width: 100vw;
+}
+
+/* Styling for heading level 1 (h1) */
+h1 {
+  font-weight: 800 !important;
+  font-size: 50px;
+}
+
+/* Styling for heading level 6 (h6) */
+h6 {
+  color: #716f6f;
+}
+
+/* Styling for the image wrapper */
+.img-wrapper {
+  width: 500px;
+  padding: 10px;
+}
+
+/* Styling for images */
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Styling for the form on the left */
+#form-left {
+  width: 600px;
+  padding: 5px;
+}
+
+/* Styling for input, textarea, select */
+input, textarea, select {
+  background: #f7f9f8 !important;
+}
+
+/* Styling for the "email us" link */
+.email-us {
+  text-decoration: underline;
+}
+
+/* Styling for labels */
+label {
+  font-weight: 600;
+  color: #716f6f;
+}
+
+/* Styling for buttons */
+button {
+  margin-top: 8px;
+  float: right;
+}
+
+/* Additional styling for button span and icon */
+button span {
+  margin-left: 8px;
+}
+
+button i {
+  margin: 0px 8px;
+}
+
+/* Media queries for screens with a max-width of 600px */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  /* Adjusting image size for smaller screens */
+  .img-wrapper img {
+    width: 70%;
+    height: 40vh;
+  }
+
+  /* Adjusting button margin for smaller screens */
+  button {
+    margin-top: 0px;
+    margin-right: 50px;
+  }
+
+  /* Adjusting container size for smaller screens */
+  .container {
+    width: 100%;
+    height: 150vh;
+  }
+
+  /* Adjusting form-left size for smaller screens */
+  #form-left {
+    width: 450px;
+    padding: 5px;
+  }
+}
+
+/* Styling ends here */

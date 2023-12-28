@@ -1,0 +1,109 @@
+/* Global reset for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the body, setting background image and flex layout */
+body {
+  background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-817077177242105657/original/35ab158c-adab-43cb-a1ff-cf1798ad0932.jpeg?im_w=1200");
+  background-position: center;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: flex-end; /* Keep the container on the right side */
+  align-items: center;
+  margin-top: 15px !important; /* Add margin from the top */
+  height: 100vh; /* Ensure full height */
+}
+
+/* Styling for the main container */
+.container {
+  /* margin-top: 10px; */
+  background-color:  #fff7d2;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 350px !important; /* Adjusted width */
+  height: 450px;
+  overflow: hidden;
+  margin-right: 5px !important;
+}
+
+/* Styling for the logo */
+.logo {
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Styling for heading level 2 (h2) */
+h2 {
+  text-align: center;
+}
+
+/* Styling for form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Styling for labels */
+label {
+  display: block;
+  font-size: small;
+  margin-bottom: 5px;
+}
+
+/* Styling for input fields */
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Hover effect for input fields */
+input:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+/* Styling for the "Remember Me" section */
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Styling for the "Remember Me" checkbox */
+#remember {
+  width: 5%;
+}
+
+/* Styling for the label of the "Remember Me" checkbox */
+#remember_label {
+  margin-top: 5px;
+}
+
+/* Styling for the "Create Account" section */
+.create-account {
+  text-align: center;
+  font-size: small;
+}
+
+/* Styling for the general button */
+.btn {
+  background-color: #15da2f !important;
+  border: 1px solid #ccc !important;
+  color: #fff !important;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Hover effect for the button */
+.btn:hover {
+  background-color: #45a049 !important;
+}

@@ -1,0 +1,36 @@
+/* Styling for the entire body of the page */
+body {
+  background-image: url("/images/adduser.jpg"); /* Set background image */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-size: 100%; /* Set background size to cover the entire body */
+}
+
+/* Styling for the overall container */
+.container-fluid {
+  height: 100vh; /* Set the container height to 100% of the viewport height */
+  padding: 10px; /* Add some padding inside the container */
+  border: 1px solid #000; /* Add a solid black border around the container */
+}
+
+/* Styling for elements with the class 'experience' */
+.experience {
+  padding: 10px; /* Add padding to elements with the 'experience' class */
+  margin-top: 10px; /* Create some space at the top of elements with the 'experience' class */
+}
+
+/* Styling for heading level 2 (h2) elements */
+h2 {
+  padding: 10px; /* Add padding to h2 elements */
+  text-align: center; /* Center-align the text */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Specify a font family */
+  font-size: 35px; /* Set the font size to 35 pixels */
+  color: rgb(26, 2, 2); /* Set the text color using RGB values */
+}
+
+/* Styling for paragraph (p) elements */
+p {
+  font-size: 18px; /* Set the font size for paragraphs */
+  font-weight: bold; /* Make the text bold */
+  text-align: center; /* Center-align the text */
+  color: red; /* Set the text color to red */
+}

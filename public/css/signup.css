@@ -1,0 +1,113 @@
+/* Body styling */
+body {
+    background-image: url("https://a0.muscache.com/im/pictures/4d08a7d4-342c-4986-b6e8-b24bf2cea961.jpg?im_w=1200");
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end !important;
+    height: 100vh;
+    margin-bottom: 10px !important;
+}
+
+/* Container styling */
+.container {
+    border: 1px solid salmon;
+    background-color: #fff7d2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px !important;
+    width: 400px !important;
+    max-width: 22% !important; /* Add max-width to ensure responsiveness */
+    height: 480px;
+    margin-right: 5px !important;
+    overflow: hidden;
+    margin-bottom: 40px !important;
+    line-height: 5.5px;
+}
+
+/* Logo styling */
+.logo {
+    text-align: center;
+}
+
+/* Heading level 4 styling */
+h4 {
+    text-align: center;
+    height: 10px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 5px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px !important;
+}
+
+/* Input styling */
+input {
+    width: 100%;
+    padding: 8px !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+/* Gender group styling */
+.gender-group {
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+/* Gender option styling */
+.gender-option {
+    width: 25% !important;
+    margin: 5px;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    overflow: hidden;
+}
+
+/* Gender label styling */
+.gender-label {
+    margin-top: 10px; 
+}
+
+/* Button styling */
+.btn {
+    background-color: #4caf50 !important;
+    color: #fff !important;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Button hover styling */
+.btn:hover {
+    background-color: #62d167 !important;
+}
+
+/* Input hover styling */
+input:hover {
+    background-color: #e2f8ff;
+}
+
+/* Commented out link styling */
+/* .login-link {
+    font-size: small;
+    text-align: center;
+    margin-top: 15px;
+} */

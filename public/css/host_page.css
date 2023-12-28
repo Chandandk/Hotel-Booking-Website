@@ -1,0 +1,101 @@
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
+
+/* Global reset and styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightgreen; /* Setting a background color for all elements */
+}
+
+/* Styling for anchor (link) elements */
+a {
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Container styling */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Styling for navigation name */
+.nav-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Utility class for justifying content space between */
+.justify-between {
+    justify-content: space-between;
+}
+
+/* Utility class for centering text and setting color */
+.text-center {
+    text-align: center;
+    color: orangered;
+}
+
+/* Styling for elements with border and shadow */
+.border-shadow {
+    border: 1px solid #edf2f4;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 10px;
+}
+
+/* Utility class for inline display */
+.inline {
+    display: inline-block;
+}
+
+/* Styling for the navigation header */
+#header nav {
+    background-color: navy;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Styling for the main site content */
+#site-main {
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Styling for navigation links in the main site content */
+#site-main .container .box-nav > a {
+    font-size: 1em;
+    padding: .5em 1em;
+}
+
+/* Styling for forms in the main site content */
+#site-main .container form {
+    margin: 2em 0;
+}
+
+/* Styling for tables */
+table {
+    border-spacing: 0px;
+    width: 100%;
+}
+
+/* Styling for table cells and headers */
+.table td, .table th {
+    padding: .75em;
+    vertical-align: top;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Styling for table rows on hover */
+.table tr:hover {
+    background-color: #fe6e89;
+}
+
+/* Styling for table headers with dark background */
+.table .thead-dark th {
+    color: #fff;
+    background-color: #2b2d42;
+    border-color: #32383e;
+    text-align: center;
+}

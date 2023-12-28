@@ -1,0 +1,222 @@
+/* Global styling reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(231, 231, 231);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    z-index: 1;
+    margin-bottom: 80px;
+}
+
+/* Logo styling */
+.logo img {
+    width: 140px;
+    margin-left: 45px;
+    height: 60px;
+}
+
+/* Navigation link styling */
+.navLink {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 15px;
+    border: 1px solid rgb(144, 144, 144);
+    border-radius: 50px;
+    padding: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* Navigation link list item styling */
+.navLink li {
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Navigation link anchor styling */
+.navLink li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation link span styling */
+.navLink span {
+    width: 40px;
+    height: 40px;
+    background-color: #FF385C;
+    border-radius: 50%;
+    padding-right: 15px;
+}
+
+/* Navigation link span icon styling */
+.navLink span .fa-solid {
+    font-size: 15px;
+    color: white;
+    margin-top: 12px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+/* Header right section styling */
+.header-right {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+/* Host styling */
+.host {
+    margin-top: 10px;
+}
+
+/* Host span styling */
+.host span {
+    font-size: 18px;
+}
+
+/* Host span anchor styling */
+.host span a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Globe icon styling */
+.fa-globe {
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+/* Dropdown styling */
+.dropdown {
+    border: 1px solid black;
+    margin-left: 15px;
+}
+
+/* Navigation item styling */
+.nav-item {
+    list-style: none;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 50px;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+/* Main content container styling */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+/* Card styling */
+.card {
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Heading level 2 styling */
+h2 {
+    margin-top: 0;
+}
+
+/* Image styling */
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Custom heart icon styling */
+.custom-heart-icon {
+    position: relative;
+    top: 45px;
+    left: 38%;
+    font-size: 25px;
+    color: smoke whitesmoke; 
+    transition: color 0.3s ease; 
+    cursor: pointer;
+}
+
+/* Custom heart icon hover styling */
+.custom-heart-icon:hover {
+    color: darkslategray;
+}
+
+/* Media queries for screens with a max-width of 600px */
+@media only screen and (max-width: 600px) {
+    .logo img {
+        width: 100px;
+        margin-left: 15px;
+    }
+    
+    .navLink {
+        display: none;
+    }
+    
+    .header-right {
+        width: 90px;
+        height: 40px;
+    }
+    
+    .fa-heart {
+        position: absolute;
+        z-index: 1;
+        font-size: 22px;
+        color: rgb(248, 243, 243);
+        margin-left: 265px;
+    }
+
+    .host {
+        display: none;
+    }
+}
+
+/* Footer styling */
+footer {
+    background-color: rgb(182, 255, 255);
+    font-family: 'Helvetica', sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    border-top: 1px solid rgb(250, 246, 246);
+    padding: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+/* Footer list item styling */
+footer ul li {
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Main footer styling */
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+}

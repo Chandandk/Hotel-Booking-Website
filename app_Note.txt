@@ -1,0 +1,33 @@
+// localhost:5000/api/user(register)
+
+login
+
+// Addition work
+getAllUser
+getUserById
+getUserByName
+
+// localhost:5000/api/user(register)
+addhotel
+addImage
+
+//------------------------------------------------
+ npm i cors  // To connect backend to frontend with Rreact
+
+ install axios
+ call APIs
+
+ components: 
+ header
+ footer
+ nav
+
+ pages: 
+register
+login
+search from hotel home page using search functionality.
+Allhotel.js -- page that contains hotel details.
+hotel.js --- Indiviuable hotel details.
+booking.js ---
+
+adminDeshboard.js --- (clickon on user details ,hotel details)
